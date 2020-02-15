@@ -36,10 +36,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #define DSPATCH_VERSION_MAJOR 7
 #define DSPATCH_VERSION_MINOR 0
-#define DSPATCH_VERSION_MICRO 0
+#define DSPATCH_VERSION_MICRO 1
 
 #if defined ADD_DSPATCH_DEPENDENCY
   #if defined _MSC_VER
-    #pragma comment(linker, "\"/manifestdependency:name='DSPatch' type='win32' version='7.0.0.0'\"")
+    #pragma comment(linker, "\"/manifestdependency:name='DSPatch' type='win32' version='7.0.1.0'\"")
   #endif
 #endif
